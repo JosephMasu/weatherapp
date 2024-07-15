@@ -3,7 +3,7 @@ import Navbar from "@/Components/Navbar";
 import { convertWindSpeed } from "@/Utils/convertWindSpeed";
 import { metersToKilometers } from "@/Utils/metersToKilometers";
 import WeatherIcon from "@/Components/WeatherIcon";
-import WeatherDetails from "@/Components/n WeatherDetail";
+import WeatherDetails from "@/Components/WeatherDetail";
 import ForecastWeatherDetail from "@/Components/ForecastWeatherDetail";
 import { useQuery } from "react-query";
 import axios from "axios";
@@ -69,7 +69,7 @@ interface WeatherData {
 export default function Home() {
   const { isLoading, error, data } = useQuery<WeatherData>("repoData", async()=>{
     const { data } = await axios.get(
-      `https://api.openweathermap.org/data/2.5/forecast?q=kampala&appid=${process.env.NEXT_PUBLIC_WEATHER_KEY}&cnt=56`
+      `https://api.openweathermap.org/data/2.5/forecast?q=india&appid=${process.env.NEXT_PUBLIC_WEATHER_KEY}&cnt=56`
     );
     return data;
   });
