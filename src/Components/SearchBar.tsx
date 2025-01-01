@@ -10,7 +10,6 @@ type Props = {
   onChange: React.ChangeEventHandler<HTMLInputElement> | undefined;
   onSubmit: React.FormEventHandler<HTMLFormElement> | undefined;
 };
-
 export default function SearchBox(props: Props) {
   return (
     <form
