@@ -7,7 +7,6 @@ import { QueryClient, QueryClientProvider, useQuery } from "react-query";
 
 const inter = Inter({ subsets: ["latin"] });
 
-// export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
