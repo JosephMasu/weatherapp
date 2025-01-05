@@ -1,5 +1,3 @@
-/** @format */
-
 import { cn } from "@/Utils/cn";
 import React from "react";
 import { IoSearch } from "react-icons/io5";
