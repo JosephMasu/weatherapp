@@ -1,5 +1,3 @@
-/** @format */
-
 import React from "react";
 import Image from "next/image";
 import { cn } from "@/Utils/cn";
