@@ -20,6 +20,7 @@ export interface ForecastWeatherDetailProps extends WeatherDetailProps {
 
 export default function ForecastWeatherDetail(
   props: ForecastWeatherDetailProps
+  
 ) {
   const {
     weatehrIcon = "02d",
