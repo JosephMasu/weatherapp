@@ -11,6 +11,7 @@ import { format, fromUnixTime, parseISO } from "date-fns";
 import Container from "@/Components/Container";
 import { convertKelvinToCelsius } from "@/Utils/convertKelvinToCelsius";
 import { getDayOrNightIcon } from "@/Utils/getDayOrNightIcon";
+
 interface WeatherDetail {
   dt: number;
   main: {
