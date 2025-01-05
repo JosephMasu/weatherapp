@@ -26,6 +26,7 @@ export default function WeatherDetails(props: WeatherDetailProps) {
   } = props;
 
   return (
+    
     <>
       <SingleWeatherDetail
         icon={<LuEye />}
