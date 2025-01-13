@@ -4,6 +4,7 @@ import WeatherDetails from "./WeatherDetail";
 import WeatherIcon from "./WeatherIcon";
 import { WeatherDetailProps } from "./WeatherDetail";
 import { convertKelvinToCelsius } from "@/Utils/convertKelvinToCelsius";
+
 export interface ForecastWeatherDetailProps extends WeatherDetailProps {
   weatehrIcon: string;
   date: string;
