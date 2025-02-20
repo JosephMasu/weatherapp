@@ -39,7 +39,6 @@ export default function ForecastWeatherDetail(
           <p className="text-sm">{day} </p>
         </div>
 
-        {/*  */}
         <div className="flex flex-col px-4">
           <span className="text-5xl">{convertKelvinToCelsius(temp ?? 0)}°</span>
           <p className="text-xs space-x-1 whitespace-nowrap">
