@@ -52,6 +52,7 @@ export default function ForecastWeatherDetail(
       <section className=" overflow-x-auto flex justify-between gap-4 px-4  w-full pr-10">
         <WeatherDetails {...props} />
       </section>
+      
     </Container>
   );
 }
