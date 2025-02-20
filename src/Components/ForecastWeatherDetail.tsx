@@ -32,7 +32,6 @@ export default function ForecastWeatherDetail(
   } = props;
   return (
     <Container className="gap-4">
-      {/* left */}
       <section className=" flex gap-4 items-center px-4  ">
         <div className=" flex flex-col gap-1 items-center">
           <WeatherIcon iconName={weatehrIcon} />
