@@ -5,7 +5,6 @@ import { MdMyLocation } from "react-icons/md";
 import axios from 'axios';
 import SearchBox from './SearchBar';
 
-
 type Props = {};
 const API_KEY = process.env.NEXT_PUBLIC_WEATHER_KEY;
 console.log('API Key:', API_KEY);
